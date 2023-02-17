@@ -9,4 +9,6 @@ public abstract class BaseClass {        // do not create object thats the reaso
 	 protected LoginPage loginpage;
 	 protected DashboardPage dashboardpage;
 	 protected PIMPage pimpage;
+	 protected DashboardPage dashboard;
+	 protected PIMPage page;
 }
