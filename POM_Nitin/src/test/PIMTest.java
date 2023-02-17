@@ -20,4 +20,8 @@ public class PIMTest extends CommonTest{
 		String verifyEmpIdAppeared = pimPage.getEmpIdFromSearchResults("0024");
 		Assert.assertEquals(verifyEmpIdAppeared, "0024");
 	}
+	@Test(priority=5, groups={"smoke","regression"})
+	public void verify(){
+		Assert.assertEquals(true,true);
 }
+	}
